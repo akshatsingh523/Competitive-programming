@@ -1,0 +1,50 @@
+import numpy as np 
+listarray=np.array([[1,2,3],[5,8,5],[0,3,1]])
+listarray
+listarray.dtype
+listarray.shape
+listarray.size
+np.array({34,23,23})
+zeros=np.zeros((2,5))
+zeros
+rng=np.arange(15)
+rng
+lspace=np.linspace(1,4,4)
+lspace
+emp=np.empty((4,6))
+emp
+emp_like=np.empty_like(lspace)
+emp_like
+ide=np.identity(45)
+ide
+ide.shape
+arr=np.arange(99)
+arr
+arr.reshape(3,33)
+arr.ravel()
+x=[[1,2,3],[4,5,6],[7,1,0]]
+ar=np.array(x)
+ar
+ar.sum(axis=0)
+ar.sum(axis=1)
+ar.sum(axis=0)
+ar.ndim
+ar.size
+ar.nbytes
+one=np.array([1,3,4,634,2])
+one.argmax()
+one.argsort()
+ar
+ar2=np.array([[5,2,1],
+             [7,8,9],
+             [3,6,0]])
+ar2.max()
+np.where(ar2>6)
+np.count_nonzero(ar)
+np.nonzero(ar)
+import sys
+py_arr=[0,4,555,2]
+np_arr=np.array(py_arr)
+sys.getsizeof(1)*len(py_arr)
+sys.getsizeof(1)*len(np_arr)
+np_arr.itemsize*np_arr.size
